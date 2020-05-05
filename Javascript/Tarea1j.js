@@ -73,7 +73,6 @@ var indice = 0
         while (valormenor != valormayor){
             
             posicion2 = 0
-            //valor = miArrTarea1[posicion2]; 
             valor = valormayor; 
 
             while (posicion2 <= miArrTarea1.length){
@@ -82,7 +81,7 @@ var indice = 0
                        
                     valor2=  miArrTarea1[posicion2 + 1]
                     posicion2 = posicion2 + 1;        
-                    
+
                     if( valor2 > valormenor){
 
                         if(valor2 < valor){
