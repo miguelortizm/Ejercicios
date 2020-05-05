@@ -82,7 +82,7 @@ var indice = 0
                        
                     valor2=  miArrTarea1[posicion2 + 1]
                     posicion2 = posicion2 + 1;        
-//validar mayor valor
+                    
                     if( valor2 > valormenor){
 
                         if(valor2 < valor){
